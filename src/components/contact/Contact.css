@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css?family=Sulphur+Point&display=swap');  
+body {
+    margin: 0;
+    padding: 0;
+    background: black url(../../assests/image/stars/stars.png) repeat top center;
+    background-size: contain;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 50% auto;
+    gap: 0;
+    margin: 130px 40px 0px 40px;
+ 
+    
+}
+.inside-container-map{
+    height: 100%;
+    width: 70%;
+    
+    
+    margin: 15% auto;
+}
+.one,.two{
+    background-color: rgba(19, 19, 19, 0.822);
+
+}
+
+.three,.four{
+    background-color: rgba(59, 59, 59, 0.226);
+    margin-bottom: 10%;
+   
+   
+}
+.map{
+    width: 100%;
+    height: 60%;
+    border-radius: 10px;
+}
+
+.inside-container{
+    width: 70%;
+    margin: auto;   
+    margin: 20% auto;   
+}
+.inside-container-team{
+    width: 70%;
+    margin: auto;
+    margin: 35% auto;  
+}
+
+.inside-container-contact{
+    margin-left: 7%;
+    margin-top: 20%;
+}
+.inner-section{
+    width: 80%;
+}
+.in{
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border-width: 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.three button{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(107, 0, 149);
+    border-width: 0px;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn-disabled {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(212, 107, 253) !important;
+    border-width: 0px;
+    color: white;
+    border-radius: 5px;
+    cursor: not-allowed
+}
+
+.one{
+    font-size: 120%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 150%;
+}
+ul{
+    list-style: none;
+}
+
+.inside-container > ul{
+    font-family: 'Sulphur Point', sans-serif;
+    opacity: 0.9;
+}
+.inside-container-team {
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 1.2rem;
+}
+.four button{
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10%;
+    background-color: rgb(149, 0, 141);
+    border-width: 0px;
+    color: white;
+    border-radius: 5px;
+}
+.button:hover{
+    text-decoration: none;
+}
+
+.heading{
+    text-align: left;
+    font-family: Orbitron;
+    border-bottom: solid 1px rgba(168, 0, 190, 0.555);
+    font-size: 150%;
+    color: rgba(255, 255, 255, 0.849);
+    margin-bottom: 2%;
+}
+.heading-2{
+    text-align: left;
+    font-family: Orbitron;
+    margin-top: 7%;
+    margin-left: 5%;
+    border-bottom: 2px solid rgb(56, 2, 56);
+    width: 80%;
+    font-size: 250%;
+    letter-spacing: 2px;
+    margin-bottom: 2%;
+
+    
+}
+
+.contactlinks:hover{
+    background-color: rgba(128, 30, 123, 0.856)
+}
+
+@media(max-width: 768px){
+    .grid-container{
+        grid-template-columns: auto;
+    }
+    .two{
+        height: 75vh;
+     }
+}
+
+@media (max-width: 480px){
+  
+    .grid-container{
+        grid-template-columns: auto;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        margin-top: 30%;
+    }
+    .inside-container{
+        width: 100%;
+    }
+    .heading{
+        text-align:center;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 15%;
+        font-size: 200%;
+    }
+    ul{
+        
+        padding: 0 5%;
+    }
+    .heading-2{
+        margin-top: 7%;
+        text-align: center;
+    }
+    .one{
+        height: 70vh;
+        font-size: 140%;
+    }
+    .two{
+       height: 55vh;
+    }
+    .inside-container-map{
+        width: 90%;  
+        height: 110vh;
+        padding-bottom: 60%;
+    }
+    .inner-section{
+        width: 90%;
+        margin-left: -1.5%;
+    }
+    .three input ,textarea{
+        font-size: 110%;
+        font-weight: 700;
+    }
+    .mainContainer
+{
+    width: 10%;
+    overflow-x: hidden;
+}}
+
+.contact_links:hover{
+    text-decoration: none;
+}
+
+#g-recaptcha {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+
+.infoMessage {
+    background-color: blueviolet;
+    height: 6vh;
+    font-size: 12px;
+    width: 80%;
+}
+
+.errMessage {
+    background-color: rgb(255, 0, 0);
+    height: 6vh;
+    font-size: 12px;
+    width: 80%;
+}
+

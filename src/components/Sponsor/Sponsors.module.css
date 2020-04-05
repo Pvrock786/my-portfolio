@@ -1,0 +1,94 @@
+.mainContainer {
+  background: black url(../../assests/image/stars/stars.png) repeat top center;
+  background-attachment: fixed;
+  background-size: contain;
+  background-repeat: repeat;
+  z-index: 0;
+}
+
+.main {
+  position: relative;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.head {
+  font-size: 2em;
+  font-weight: bold;
+  position: relative;
+  top: 50px;
+  z-index: 5;
+  margin: 100px 0px 40px 0px;
+  color: rgb(255, 198, 177);
+  font-family: Orbitron;
+  letter-spacing: 1px;
+}
+
+.twinkling {
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  background: transparent url("../../assests/image/stars/twinkling.png") repeat top center;
+  z-index: 1;
+  background-attachment: fixed;
+
+  /* -moz-animation: move-twink-back 400s linear infinite;
+    -ms-animation: move-twink-back 400s linear infinite;
+    -o-animation: move-twink-back 400s linear infinite;
+    -webkit-animation: move-twink-back 400s linear infinite; */
+  animation: move-twink-back 400s linear infinite;
+}
+
+@keyframes move-twink-back {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: -10000px 5000px;
+  }
+}
+
+@-webkit-keyframes move-twink-back {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: -10000px 5000px;
+  }
+}
+
+@-moz-keyframes move-twink-back {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: -10000px 5000px;
+  }
+}
+
+@-ms-keyframes move-twink-back {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: -10000px 5000px;
+  }
+}
+
+@media(max-width:480px) {
+  .mainContainer {
+    margin: 0 10%;
+    width: 52%;
+  }
+}

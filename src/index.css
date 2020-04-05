@@ -1,0 +1,14 @@
+html{
+    margin: 0px;
+padding: 0px;
+
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Orbitron, sans-serif;
+    color: white;
+    cursor: url('./assests/Tailless.cur'), default;
+  
+}

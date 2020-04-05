@@ -1,0 +1,110 @@
+ 
+@import url('https://fonts.googleapis.com/css?family=Sulphur+Point&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+  h4 {
+      text-align: center;
+      margin-left: 10%;
+      color: rgb(255, 198, 177);
+      font-family: Orbitron;
+      
+  }
+  
+  .faculty-team{
+    background-color: rgba(27, 27, 27, 0.356);
+    width: 90%;
+    margin: 10% auto;
+    /* color: rgb(92, 88, 88); */
+    opacity: 0.8;
+    border-radius: 10px;
+    /* padding: 1% 3% */
+    
+    
+  }
+  
+  .faculty-message{
+    margin-bottom: 5%;
+  }
+.faculty-image {
+  display: block;
+  width: 250px;
+  height: 250px;
+  margin: 5% auto   ;
+ 
+}
+.name{
+  padding: 11px 7px 7px 7px;
+  color: rgb(255, 198, 177);
+  border-bottom: solid 2px rgba(255, 198, 177, 0.616);
+  font-family: Orbitron;
+  border-radius: 5px;
+  font-size: 1em;
+  letter-spacing: 1.2px;
+}
+
+.name-1, .name-3{
+  text-align: left;
+}
+.name-2, .name-4{
+  text-align: right;
+}
+
+.name-1 h2{
+  margin-left: 3%;
+}
+.name-2 h2{
+  margin-right: 3%;
+}
+.message{
+  display: flex;
+  grid-auto-columns: auto auto;
+}
+.paragraph{
+  text-align: left;
+  margin: 3%;
+  margin-left:6%;
+
+  opacity: 1;
+  font-family: 'Sulphur Point', sans-serif;
+  line-height: 125%;
+  opacity: .9;
+}
+
+.reverse{
+  flex-direction: row-reverse;
+}
+@media (max-width: 768px){
+
+  .faculty-team{
+        margin: 19% auto;    
+  }
+  .message{
+    flex-direction: column;
+    align-items: center;
+  }
+  .name-2 , .name-1 {
+    text-align: center;
+  }
+}
+@media (max-width: 480px){
+  
+  .faculty-team{
+    width: 100%;
+    margin: 35% auto;        
+  }
+  .paragraph{
+    font-size: 100%;
+    text-align: left;
+  }
+
+  .name-2 h2, .name-1 h2{
+    font-size: 200%;
+  }
+
+  .name{
+    border-radius: 0px;
+  }
+ 
+}

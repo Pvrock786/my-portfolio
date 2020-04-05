@@ -1,0 +1,192 @@
+/* .events {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0px 40px;
+}
+
+.container_event {
+  background-color: rgb(19, 18, 18);
+  opacity: .5;
+  margin-top: 120px;
+  margin-bottom: 5%;
+  padding-bottom: 50px;
+  height:100vh;
+  z-index: 111111111111111111;
+}
+
+.main-event {
+  width: 50%;
+  margin: 0;
+  text-align: center;
+  border-radius: 2%;
+  display: inline-block;
+  background-color: #000;
+  opacity: 1;
+  box-shadow: 0 0 15px #000;
+
+  transition: all .3s ease-in-out;
+  padding-bottom: 200px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.main-event:hover {
+  box-shadow: 0px -5px 15px #701a6a;
+  transform: scale(1.05, 1.05);
+}
+
+.inner {
+  font-family: Orbitron;
+
+  background-image: url("./Events/hero-bg.jpg");
+  height: 100%;
+  background-size: cover;
+}
+
+.inner h2 {
+  position: relative;
+  bottom: -90%;
+  background: rgb(5, 5, 5);
+  background: linear-gradient(0deg, rgb(0, 0, 0) 30%, rgba(0, 0, 0, 0) 100%);
+}
+
+.heading_event {
+  color: rgb(192, 146, 204);
+  font-size: 2em;
+  text-align: center;
+
+  border-bottom:solid rgb(160, 127, 168) 1px;
+  padding: 10px;
+}
+
+.events-desc {
+  font-family: 'Sulphur Point', sans-serif;
+  font-size: 1.2em;
+  text-align: left;
+  line-height: 25px;
+
+}
+
+.inner_bottom {
+  padding: 40px 30px 50px 30px;
+}
+
+.btn_event {
+  font-family: 'Sulphur Point', sans-serif;
+  margin: 15px;
+  background-color: #95008d;
+
+  border-radius: 7px;
+  color: white;
+  font-weight: 800;
+  font-size: 1.2em;
+  border: none;
+  transition: .5s;
+  padding: 8px 20px;
+}
+
+
+
+
+@media (max-width: 900px) {
+
+  .events-desc {
+    font-size: 1.2em;
+    padding: 4%;
+  }
+  .events {
+
+    padding: 0px 20px;
+  }
+
+  .main-event {
+    width: 60%;
+    padding-bottom: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .container_event {
+    margin-top: 100px;
+  }
+
+
+  .events {
+    flex-wrap: wrap;
+    padding: 0px 20px;
+  }
+
+  .main-event {
+    width: 100%;
+    padding-bottom: 200px;
+  }
+} */
+.particle-js{
+  position: absolute;
+  margin-top: 0%;
+  width: 100%;
+  z-index: -11;
+  height: 240vh;
+}
+.container-event{
+  margin-top: 10%;
+ 
+}
+.competition{
+  background: url('puzzle1.jpg');
+  height: 80vh;;
+  width: 100%;
+  background-size: cover;
+  backface-visibility: unset;
+  opacity: .7;
+}
+.event_card{
+  display: flex;
+ padding: 3%;
+  flex-wrap: wrap;
+  background-color: rgba(22, 22, 22, 0.671);
+ 
+  }
+.card{
+  margin: 2% 4%  ;
+  background-color: rgb(12, 12, 12);
+  width: 25%;
+  border-radius: 20px;
+  position: relative;
+  /* margin-left: 5%; */
+  margin-bottom: 10%;
+}
+.inner > img{
+  width: 100%;
+  /* height: 60%; */
+  z-index: -111;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  
+}
+.inner> .event-heading{
+  text-align: center;
+  /* margin: 2% auto; */
+  background: linear-gradient(0deg,  rgb(12, 12, 12) 50%, rgba(0, 0, 0, 0) 100%);
+  position: absolute;
+  top:44%;
+  width: 100%;
+  text-shadow: 0px -5px 8px #550155;
+  
+}
+
+.events-desc{
+  text-align: center;
+  margin-top: 5%;
+  padding: 2%;
+}
+.explore-events{
+   padding:  2% 4%;
+   margin: 4% 35%;
+    color: rgb(180, 174, 180);
+    background-color:  #ff0000be;
+    border-radius:5px;
+    border: none;
+}
